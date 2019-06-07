@@ -1,0 +1,97 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Big Caslon","Book Antiqua","Palatino Linotype",Georgia,serif;
+}
+
+p {
+	padding: 1em 2em;
+	font-size: 1.3rem;
+
+}
+
+h2 {
+	font-size: 3em;
+	margin-left: 1em !important;
+
+}
+
+.main-title {
+	font-size: 120%;
+	text-align: center;
+	font-weight: 800;
+	margin: 3.5em 5em;
+
+
+}
+
+.main-title h1 {
+ font-size: 4em;
+ font-weight: 800;
+ 
+}
+
+.main-title h3 {
+	font-size: 2em;
+	font-weight: 800;
+} 
+
+.post-hero-image {
+    
+      width: 100%;
+  height: auto;
+    display: block;
+
+
+}
+
+.content img {
+	max-width: 50%;
+	height: auto;
+	width: auto;
+	margin: 2em 25%;
+}
+
+.audience ul li {
+	font-size: 1.3em;
+	
+
+}
+
+.audience h3 {
+	font-size: 2em;
+	margin-left: 1em;
+	padding-top: 1em;
+}
+
+.audience ul {
+	padding-left: 3.5em;
+}
+
+
+
+.infographic {
+	max-width: 65% !important;
+	margin: 2em 10% !important;
+}
+
+.content div {
+	margin-left: 3em;
+}
+
+.takeaway-header, .action-header {
+	padding-left: 2em;
+	font-size: 2em;
+		padding-bottom: 0;
+}
+
+.action-header {
+	padding-top: 1em;
+}
+
+.quote {
+	text-align: center;
+	padding-top: 1.5em;
+}

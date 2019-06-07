@@ -1,7 +1,16 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Big Caslon","Book Antiqua","Palatino Linotype",Georgia,serif;
 
+
+
+
+}
+
+h1 a {
+  text-decoration: none;
+  color: inherit;
 }
 
 
@@ -10,11 +19,12 @@ nav {
   height: 90px;
   background-color: black;
   display: flex;
+ 
 }
 
 nav h1 {
   text-align: center;
-  font-family: arial;
+   
   color: white;
   font-size: 44px;
   line-height: 55px;
@@ -42,7 +52,7 @@ nav ul li {
 
 nav ul li a {
   display: block;
-  font-family: arial;
+   font-family: "Big Caslon";
   color: white;
   font-size: 20px;
   padding: 34px 14px;
