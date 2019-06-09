@@ -10,6 +10,10 @@ p {
 
 }
 
+.date {
+	margin-bottom: .5em !important;
+}
+
 
 .content {
 	margin-left: 15%;
@@ -20,7 +24,8 @@ p {
 	font-size: 120%;
 	text-align: center;
 	font-weight: 800;font-size: 30;
-	margin: 3.5em 0;
+	margin-top: 3.5em;
+	margin-bottom: 1.5em
 
 
 
