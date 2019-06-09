@@ -13,14 +13,12 @@ p {
 }
 
 .content img {
-	max-width: 50%;
-	height: auto;
-	width: auto;
-	margin: 2em 25%;
+	max-width: 100%;
+	margin: 2em 0;
 }
 
 .content {
-	margin-left: 10%;
+	margin-left: 15%;
 	margin-right: 30%;
 }
 
@@ -53,12 +51,6 @@ p {
 }
 
 
-.post-hero-image {
-    
-    margin-left: 25% !important;
-
-
-}
 
 
 
