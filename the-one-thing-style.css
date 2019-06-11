@@ -82,6 +82,7 @@ p {
 .infographic {
 	max-width: 100% !important;
 	margin: 2em 0 !important;
+	padding-bottom: 2em;
 }
 
 
