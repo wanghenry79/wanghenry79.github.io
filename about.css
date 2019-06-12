@@ -10,11 +10,6 @@ p {
 
 }
 
-.date {
-	margin-bottom: .5em !important;
-}
-
-
 .content {
 	margin-left: 15%;
 	margin-right: 30%;
@@ -24,7 +19,7 @@ p {
 	font-size: 120%;
 	text-align: center;
 	font-weight: 800;
-	font-size: 30;
+	
 	margin-top: 3.5em;
 	margin-bottom: 1.5em
 
@@ -38,10 +33,11 @@ p {
  
 }
 
-.main-title h3 {
+h3 {
 	font-size: 40px;
-	font-weight: 800;
-} 
+	margin-top: 1em;
+	
+}
 
 .content img {
    margin: 1em 0;
@@ -49,26 +45,6 @@ p {
    height: auto;
 }
 
-
-h2 {
-	font-size: 40px;
-	margin-top: 1em;
-	
-}
-
-
-
-h4 {
-	font-size: 25px;
-	padding-top: 1em;
-
-}
-
-.content ol li {
-	font-size: 25px;
-	margin-left: 1em;
-}
-
-.infographic {
+.what-we-do {
 	padding-bottom: 2em;
 }
