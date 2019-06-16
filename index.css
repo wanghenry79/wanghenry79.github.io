@@ -61,7 +61,7 @@ a {
 }
 
 
-@media screen and (min-width: 1001px) {
+@media screen and (min-width: 1151px) {
 	.book-review {
 	background-color: black;
 	display: inline-block;
@@ -80,7 +80,7 @@ a {
 
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1150px) {
 	.book-review {
 		background-color: black;
 	display: inline-block;
