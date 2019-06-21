@@ -12,6 +12,10 @@ p {
 
 }
 
+.date {
+	margin-bottom: .5em !important;
+}
+
 .content img {
 	max-width: 100%;
 	margin: 1em 0;
@@ -35,9 +39,7 @@ p {
 
 }
 
-.date {
-	margin-bottom: .5em !important;
-}
+
 
 
 .main-title h1 {
