@@ -1,5 +1,12 @@
 
 
+
+.content {
+	margin-left: 8em;
+	margin-right: 21em;
+}
+
+/* Old 
 * {
     margin: 0;
     padding: 0;
@@ -105,3 +112,5 @@ p {
 	text-align: center;
 	padding-top: 1.5em;
 }
+
+*/
