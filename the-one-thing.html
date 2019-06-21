@@ -6,6 +6,9 @@
 	<link href="styles/footer.css" rel="stylesheet" type="text/css" />
 	<link href="styles/the-one-thing-style.css" rel = "stylesheet" type="text/css" media="screen"/>
 	 <meta charset="utf-8">
+	<link href="styles/aside.css" rel = "stylesheet" type="text/css" media="screen"/>
+
+
 	<title> The ONE Thing - The Novel Column </title>
 
 	<script src="jquery.js"></script> 
@@ -13,6 +16,7 @@
     <script>  
     	$(function(){
       	$("#includedContent").load("header.html"); 
+      	$("#sidebar").load("aside.html");
     	});
     </script> 
 
@@ -33,7 +37,7 @@
 
 
 
-
+<div class="wrapper">
 <div class="content">
 
 	<div class="main-title">
@@ -85,7 +89,7 @@
 <img class="good-size" src="images/the-one-thing/domino-effect.jpg">
 
 <h2 class="title takeaway-title">Unique Takeaways</h2>
-<div class=unique-takeaways">
+<div class="unique-takeaways">
 
 <div class="takeaway-note">
 	<p> <b> Note: </b> All of these main ideas are equally important. Since the takeaways build upon each other, they are organized below in this order. </p>
@@ -195,8 +199,10 @@
 </div>
 
 
+<div id="sidebar"> </div>
 
 </div>
+
 
 
 <footer> 
