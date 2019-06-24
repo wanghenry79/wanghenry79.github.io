@@ -68,14 +68,14 @@
 
 
 
-
+/*
 @media all and (max-width: 800px) {
 
     #page {
         flex-flow:column;
     }
 
-    /* Make the sidebar take the entire width of the screen */
+    /* Make the sidebar take the entire width of the screen 
 
     aside {
         width:auto;
@@ -83,3 +83,4 @@
 
 }
 
+*/
