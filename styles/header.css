@@ -20,6 +20,7 @@ nav {
   background-color: black;
   display: flex;
   position: relative;
+  align-items: center;
   z-index: 2;
  
 }
@@ -31,7 +32,7 @@ nav img {
 }
 nav h1 {
 display: inline-block;
-margin: 15px 0;
+
 
 color: white;
 font-size: 40px;
