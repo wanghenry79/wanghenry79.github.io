@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: "Book Antiqua";
+    font-family: "Book Antiqua", "Palatino Nova", Palatino;
 }
 
 .wrapper {
