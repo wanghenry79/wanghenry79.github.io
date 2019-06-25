@@ -77,7 +77,7 @@ form {
   background-color: orange;
   padding: 1.5em;
   border: solid 4px black;
-
+  position: fixed;
 }
 
 form h2 {
