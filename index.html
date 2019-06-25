@@ -33,23 +33,56 @@
  		<div class="image">
  		<img src="images/other/bookshelf.jpg"> 
  		</div>	
+ 		
+		<script>
+			function openSesame() {
+			var x = document.getElementById("form");
 
- 		<script> 
- 			function openMorningRoutine() {
- 				window.open("https://forms.gle/wrFyaw2DzJ7UF6FQ9");
- 			}
- 		</script>
+		  	if (x.style.display === "none") {
+		    	x.style.display = "block";
+		  	} else {
+		    	x.style.display = "none";
+		  	}
+
+			}
+		</script>
 
  		<div class="description"> 
 	 		<h3> Get access to the morning routine used by world-class performers for FREE! </h3>
 
 	 	
 
-	 		<button onclick="openMorningRoutine()"> <p> <b> Send it to me right now!</b> </p> </button>
+	 		<button onclick="openSesame()"> <p> <b> Send it to me right now!</b> </p> </button>
 
  		</div>
 
  	</div>
+
+ 	<div class="form-wrapper">
+		<form id="form" name="email-list" netlify style="display: none;">
+
+		<h2> Fill in this short form to access The World-Class Morning Routine! </h2>
+
+		<div class="form-content">
+ 			<p>
+   			<label>Your Name: </label>   
+ 			</p>
+ 	
+ 		<input type="text" name="name" />
+
+		 <p>
+		 	<label> Your Email:  </label>
+		 </p>
+	 	<input type="text" name="email" />
+
+	 		<p>
+	 		<button type="submit">Send it!</button>
+	 		</p>
+	</div>
+
+
+</form>
+</div>
 
 	<h2 class="inquiry-header white"> What are you looking for today? </h2>
  	<div class="inquiry"> 
