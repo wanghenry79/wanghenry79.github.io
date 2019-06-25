@@ -50,7 +50,7 @@
 }
 
 .sidebar-content p {
-  margin-top: 1em;
+  margin-top: .5em;
     font-size: 1em;
 }
 
@@ -71,7 +71,7 @@
 
 form {
   width: 490px;
-  margin: 0 auto;
+  margin-left: 10%;
   margin-top: 15%;
 
   background-color: orange;
