@@ -78,7 +78,7 @@ form {
   border: solid 4px black;
   position: fixed;
   left: 400px;
-  
+  top: 200px;
 }
 
 form h2 {
