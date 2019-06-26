@@ -69,10 +69,10 @@ form {
   background-color: orange;
   padding: 1.5em;
   border: solid 4px black;
-  
+
   position: fixed;
-  left: 16vw;
-  top: 10vw;
+  left: 22vw;
+  top: 15vw;
 }
 
 form h2 {
