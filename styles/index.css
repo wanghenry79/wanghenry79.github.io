@@ -69,9 +69,11 @@ form {
   background-color: orange;
   padding: 1.5em;
   border: solid 4px black;
-  position: fixed;
-  left: 450px;
-  top: 250px;
+ 
+ position: relative;
+  display: block;
+  margin: 12em auto;
+
 }
 
 form h2 {
