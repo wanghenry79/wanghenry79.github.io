@@ -77,16 +77,13 @@ form {
   padding: 1.5em;
   border: solid 4px black;
 
-  position: relative;
-  display: block;
-  margin: 12em auto;
 
-  /*
+  
   position: fixed;
   left: 16vw;
   top: 10vw;
 
-  */
+
 }
 
 form h2 {
