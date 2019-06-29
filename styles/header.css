@@ -24,11 +24,11 @@ font-family: "Book Antiqua", "Palatino Nova", Palatino;
 
   nav img {
     height: 100%;
-    width: 150px;
+    width: 90px;
     display: block;
     
     align-items: center;
-    text-align: center;
+    margin: 0 auto;
   }
 
 }
