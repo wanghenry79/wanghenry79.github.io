@@ -26,7 +26,7 @@ body {
 	background-color: #f28600;
 }
 
-@media all and (max-width: 765px) {
+@media all and (max-width: 812px) {
 
 img {
 	width: 100%;
@@ -146,7 +146,7 @@ img {
 
 /* Media Target for Bigger Resolutions */
 
-@media all and (min-width: 766px) {
+@media all and (min-width: 812px) {
 
 .main-promotion{
      display: flex;
