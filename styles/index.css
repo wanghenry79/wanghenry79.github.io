@@ -26,7 +26,7 @@ body {
 	background-color: #f28600;
 }
 
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 800px) {
 
 img {
 	width: 100%;
@@ -103,14 +103,17 @@ img {
 .newest-review-content h2 {
 	font-size: 30px;
 	padding: 3em 0;
+	padding-bottom: 2em;
 	text-align: center;
 
 }
 
 .newest-review-content h5 {
 	font-size: 25px;
+	padding: 0 1em;
 	padding-bottom: 3em;
-	padding-left: 1.5em;
+	
+	font-weight: 400;
 }
 
 .book-review {
@@ -126,7 +129,7 @@ img {
 
 .book-description .post-title {
 	font-size: 30px;
-	padding-top: 3em;
+	padding-top: 2em;
 	padding-bottom: 1.5em;
 	text-align: center;
 	font-weight: 700;
@@ -134,8 +137,9 @@ img {
 
 .book-description .post-description {
 	font-size: 23px;
+	padding: 0 1em;
 	padding-bottom: 3em;
-	padding-left: 1.5em;
+	
 }
 
 
@@ -146,12 +150,18 @@ img {
 
 /* Media Target for Bigger Resolutions */
 
-@media only screen and (min-width: 820px) {
+
+
+@media only screen and (min-width: 821px) {
 
 .main-promotion{
      display: flex;
      align-items: center; /* keeps everything at center of big div */
 }
+
+
+
+
 
 .main-promotion .image {
 	width: 50%;
