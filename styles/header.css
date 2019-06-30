@@ -38,7 +38,7 @@ font-family: "Book Antiqua", "Palatino Nova", Palatino;
 h1 a {
   text-decoration: none;
   color: inherit;
-}
+} 
 
 
 nav {
@@ -57,7 +57,7 @@ nav img {
   display: inline-block;
   padding-left: 4%;
 }
-nav h1 {
+nav h1 a {
 display: inline-block;
 
 
