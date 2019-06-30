@@ -4,6 +4,10 @@
     font-family: "Book Antiqua", "Palatino Nova", Palatino;
 }
 
+
+@media only screen and (min-width: 801px) {
+
+
 .wrapper {
 	display: flex;
 	max-width:1200px;
@@ -69,6 +73,11 @@
 }
 
 
+}
+
+
+
+
 form {
   width: 490px;
 
@@ -120,14 +129,14 @@ form button {
 
 
 
-/*
+
 @media all and (max-width: 800px) {
 
-    #page {
+    .wrapper {
         flex-flow:column;
     }
 
-    /* Make the sidebar take the entire width of the screen 
+    /* Make the sidebar take the entire width of the screen */
 
     aside {
         width:auto;
@@ -135,4 +144,3 @@ form button {
 
 }
 
-*/
