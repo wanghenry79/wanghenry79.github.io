@@ -8,7 +8,7 @@ font-family: "Book Antiqua", "Palatino Nova", Palatino;
 
 }
 
-@media only screen and (max-width: 812px) {
+@media only screen and (max-width: 800px) {
 
   nav h1, nav ul {
       display: none;
@@ -33,7 +33,7 @@ font-family: "Book Antiqua", "Palatino Nova", Palatino;
 
 }
 
-@media only screen and (min-width: 813px) {
+@media only screen and (min-width: 801px) {
 
 h1 a {
   text-decoration: none;
