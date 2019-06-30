@@ -14,6 +14,7 @@ a:hover, a:active { text-decoration: none; color:black }
 
 a {
 	text-decoration: none;
+
 }
 
 
@@ -27,6 +28,10 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
+
+body {
+	background-color: #f28600;
+}
 
 img {
 	width: 100%;
@@ -153,6 +158,10 @@ img {
 
 
 @media only screen and (min-width: 821px) {
+
+body {
+	background-color: white;
+}
 
 .main-promotion{
      display: flex;
@@ -368,6 +377,7 @@ text-align: center;
 @media screen and (max-width: 1150px) {
 	.book-review {
 	background-color: black;
+
 	display: inline-block;
 	width: 32.7%;
 	padding-left: 0;
@@ -386,13 +396,15 @@ text-align: center;
 
 .book-review p {
 	color: white;
-	margin: 1em 0;
+	padding: 1em 1.5em;
 }
 
 .post-title {
 	text-align: center;
 	font-size: 21px;
 	font-weight: 650;
+	color: white;
+	padding-top: 1em;
 	
 }
 
@@ -405,13 +417,11 @@ text-align: center;
 
 }
 
-#the-one-thing  {
+#the-one-thing h2, #the-one-thing p {
 	background-color: white;
+	color: black !important;
 
 }
 
-#the-one-thing p {
-	color: black;
-}
 
 }
