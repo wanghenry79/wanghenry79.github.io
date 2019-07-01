@@ -141,7 +141,7 @@ form button {
     aside {
         width:auto;
         display: block;
-        right: 0;
+        right: 0 !important;
     }
 
 }
