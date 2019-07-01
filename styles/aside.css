@@ -47,6 +47,7 @@
     .sidebar .freebie .sidebar-content button p {
       font-size: 20px !important;
       margin: auto auto !important;
+
     }
 
 }
@@ -106,6 +107,7 @@
 .sidebar-content p {
   margin-top: .5em;
     font-size: 1em;
+    padding: 0 !important;
 }
 
 .sidebar-content button {
