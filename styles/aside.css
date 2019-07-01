@@ -39,9 +39,9 @@
       font-size: 20px !important;
     }
 
-    .sidebar-content button {
-      width: 200px !important;
-      height: 100px !important;
+    .sidebar .freebie .sidebar-content button {
+      width: 100px !important;
+      height: 50px !important;
     }
 
 }
