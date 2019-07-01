@@ -138,7 +138,7 @@ form button {
 
     /* Make the sidebar take the entire width of the screen */
 
-    aside {
+    .sidebar {
         width:auto;
         display: block;
         position: static;    }
