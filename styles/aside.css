@@ -112,7 +112,7 @@
 
 .sidebar-content button {
     margin: 0 auto; 
-    margin-top: 3em;
+    margin-top: 3em !important;
     display: block;
     background-color: #f28600;
     border: none;
