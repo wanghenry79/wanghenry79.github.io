@@ -105,7 +105,7 @@
 }
 
 .sidebar-content p {
-  margin-top: .5em;
+  margin: auto auto;
     font-size: 1em;
     padding: 0 !important;
 }
