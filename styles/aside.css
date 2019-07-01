@@ -113,7 +113,6 @@
 
 .freebie button {
     margin: 0 auto; 
-    margin-top: 3em !important;
     display: block;
     background-color: #f28600;
     border: none;
@@ -121,7 +120,7 @@
     width: 8em;
     height: 2em;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 16px !important;
 
 
 }
