@@ -13,7 +13,7 @@
     /* Make the sidebar take the entire width of the screen */
 
     .sidebar {
-        width: 50%;
+        width: 100%;
         display: block;
         position: static;    
         
@@ -22,7 +22,7 @@
 
     .freebie {
       margin: 0 auto;
-      width: 50%;
+      
     }
 
     .freebie h4 {
