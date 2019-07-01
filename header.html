@@ -20,12 +20,32 @@
 
 <body>
 
+<script>
+  function toggleNav() {
+  var dropdown = document.getElementById("dropdown");
+
+  var displaySetting = dropdown.style.display;
+
+
+  if (screen.width < 801) {
+    if (displaySetting == "block") {
+      dropdown.style.display = "none";
+
+    } else {
+      dropdown.style.display = "block";
+    }
+  }
+
+  }
+
+</script>
+
 <nav>
-  <img class="logo" src="images/other/logo.jpg">
+  <img class="logo" src="images/other/logo.jpg" id="navbar-trigger" onclick>
 
   <h1> <a href="index.html"> The Novel Column </a> </h1>
 
-  <ul>
+  <ul id="dropdown">
       
       <li> <a href="about.html"> About </a> </li>
       <li> <a href="book-reviews.html"> Book Reviews </a> </li>
