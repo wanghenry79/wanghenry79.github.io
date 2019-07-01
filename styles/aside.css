@@ -133,7 +133,7 @@ form button {
 @media all and (max-width: 800px) {
 
     .wrapper {
-        flex-flow:column;
+        display: block;
     }
 
     /* Make the sidebar take the entire width of the screen */
