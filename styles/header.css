@@ -12,6 +12,7 @@
 
   .ac-gn-menuicon-bread.ac-gn-menuicon-bread-top{
     color: white;
+    z-index: 3;
   }
 
   nav h1 {
