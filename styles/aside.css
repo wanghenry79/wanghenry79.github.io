@@ -22,12 +22,12 @@
 
     .freebie {
       margin: 0 auto;
-      width: auto;
+      width: auto !important;
       
     }
 
     .sidebar-content {
-      width: 100%;
+      width: auto !important;
     }
 
     .freebie h4 {
