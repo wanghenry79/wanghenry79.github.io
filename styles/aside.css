@@ -13,7 +13,7 @@
     /* Make the sidebar take the entire width of the screen */
 
     .sidebar {
-        width:auto;
+        width: 50%;
         display: block;
         position: static;    
         
