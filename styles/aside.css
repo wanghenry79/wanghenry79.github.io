@@ -16,9 +16,13 @@
         width:auto;
         display: block;
         position: static;    
-        text-align: center;
         
+
       }
+
+    .sidebar-content {
+      margin: 0 auto;
+    }
 
 }
 
