@@ -108,6 +108,7 @@
   margin: auto auto;
     font-size: 1em;
     padding: 0 !important;
+    padding-bottom: 2em !important;
 }
 
 .freebie button {
@@ -120,6 +121,7 @@
     width: 8em;
     height: 2em;
     font-weight: 700;
+    font-size: 16px;
 
 
 }
