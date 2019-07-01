@@ -25,6 +25,10 @@
       
     }
 
+    .sidebar-content {
+      width: 100%;
+    }
+
     .freebie h4 {
       font-size: 30px !important;
     }
