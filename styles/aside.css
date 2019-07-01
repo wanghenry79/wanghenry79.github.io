@@ -140,8 +140,7 @@ form button {
 
     aside {
         width:auto;
-        display: block !important;
-        z-index: 0;
+        display: block;
     }
 
 }
