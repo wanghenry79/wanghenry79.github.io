@@ -42,13 +42,10 @@
     .sidebar .freebie .sidebar-content button {
       width: 250px !important;
       height: 50px !important;
+      font-size: 20px;
     }
 
-    .sidebar .freebie .sidebar-content button p {
-      font-size: 20px !important;
-      margin: auto auto !important;
-
-    }
+    
 
 }
 
