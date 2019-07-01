@@ -85,10 +85,7 @@
 
 .freebie button {
     margin: 0 auto; 
-    display: block;
-    background-color: #f28600;
-    border: none;
-    cursor: pointer;
+    
     width: 8em;
     height: 2em;
     font-weight: 700;
@@ -104,6 +101,13 @@
     border: 4px solid #f28600;
     height: 16em;
    
+}
+
+.freebie button {
+  display: block;
+    background-color: #f28600;
+    border: none;
+    cursor: pointer;
 }
 .sidebar-content {
    
