@@ -45,7 +45,7 @@
     }
 
     .sidebar .freebie .sidebar-content button p {
-      font-size: 20px;
+      font-size: 20px !important;
     }
 
 }
