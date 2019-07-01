@@ -10,7 +10,7 @@ font-family: "Book Antiqua", "Palatino Nova", Palatino;
 
 @media only screen and (max-width: 800px) {
 
-  nav h1, nav ul {
+  nav h1 {
       display: none;
   }
 
