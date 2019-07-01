@@ -22,13 +22,11 @@
 
 <script>
   function toggleNav() {
+
   var dropdown = document.getElementById("dropdown");
 
-  var displaySetting = dropdown.style.display;
-
-
   if (screen.width < 801) {
-    if (displaySetting == "block") {
+    if (dropdown.style.display == "block") {
       dropdown.style.display = "none";
 
     } else {
