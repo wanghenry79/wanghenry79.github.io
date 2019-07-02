@@ -91,14 +91,6 @@ img {
 	margin: 0 auto;
 }
 
-.recent-posts-title {
-	text-align: center;
-	font-size: 30px;
-	background-color: white;
-	padding: 3em 0;
-
-}
-
 .newest-review-content {
 	background-color: black;
 	color: white;
@@ -214,6 +206,7 @@ body {
 	padding: 1em auto;
 
 }
+
 
 
 form {
