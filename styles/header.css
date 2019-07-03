@@ -48,6 +48,7 @@
     background-color: black;
     padding-bottom: 1em;
     display: none;
+    z-index: 5;
   }
   #dropdown {
     display: none;
