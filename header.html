@@ -23,16 +23,16 @@
 <script>
   function toggleNav() {
 
-  var dropdown1 = document.getElementById("dropdown");
+  var dropdown = document.getElementById("dropdown");
   var selection = document.getElementByClassName("options");
 
   
     if (dropdown.style.display == "inline-block") {
-      dropdown1.style.display = "none";
-      selection.style.display = "none"
+      dropdown.style.display = "none";
+      selection.style.display = "none";
 
     } else {
-      dropdown1.style.display = "inline-block";
+      dropdown.style.display = "inline-block";
       selection.style.display = "inline-block";
     }
   }
@@ -43,21 +43,11 @@
 
 <nav>
 
-  <span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-top">
-    <span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-top"></span>
-  </span>
-
-  <span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-bottom">
-    <span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-bottom"></span>
-  </span>
-
-
-
   <img class="logo" src="images/other/logo.jpg" onclick="toggleNav()">
 
   <h1> <a href="index.html"> The Novel Column </a> </h1>
 
-  <ul id="dropdown" style="display: none;">
+  <ul id="dropdown">
       
       <li class="options"> <a href="about.html"> About </a> </li>
       <li class="options"> <a href="book-reviews.html"> Book Reviews </a> </li>
