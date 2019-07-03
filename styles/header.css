@@ -60,6 +60,7 @@
   }
 
   .options {
+    display: inline;
         padding: 1em;
     font-size: 25px;
   }
