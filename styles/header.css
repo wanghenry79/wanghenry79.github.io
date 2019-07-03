@@ -8,11 +8,12 @@
 
 }
 
-a {
+
+@media only screen and (max-width: 800px) {
+  a {
   text-decoration: none;
   color: black;
-}
-@media only screen and (max-width: 800px) {
+  }
 
   .ac-gn-menuicon-bread.ac-gn-menuicon-bread-top{
     color: white;
@@ -46,6 +47,10 @@ a {
     display: none;
     list-style: none;
     text-decoration: none !important;
+  }
+
+  li {
+    display: inline;
   }
 
   
