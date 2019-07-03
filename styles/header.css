@@ -40,7 +40,12 @@
 
   #dropdown {
     display: none;
+    list-style: none;
+    text-decoration: none;
   }
+
+  
+
 
 
 
