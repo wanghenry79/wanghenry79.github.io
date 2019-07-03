@@ -23,15 +23,21 @@
 <script>
   function toggleNav() {
 
-  var dropdown = document.getElementById("navbar");
+  var dropdown = document.getElementById("dropdown");
+  var navbar = document.getElementById("navbar");
   var selection = document.getElementsByClassName("options");
 
   
-    if (dropdown.style.display == "block") {
+    if (dropdown.style.display == "inline" && navbar.style.display == "block" && selection.style.display == "inline") {
       dropdown.style.display = "none";
+      navbar.style.display = "block";
+      selection.style.display = "inline";
+
 
     } else {
-      dropdown.style.display = "block";
+      dropdown.style.display == "inline";
+      navbar.style.display == "block";
+      selection.style.display == "inline";
 
     }
   }
@@ -46,7 +52,7 @@
 
   <h1> <a href="index.html"> The Novel Column </a> </h1>
 
-  <div class="navbar">
+  <div id="navbar">
 
   <ul id="dropdown">
       
