@@ -59,7 +59,7 @@
     width: 100%;
   }
 
-  li {
+  .options {
     display: none;
     padding: 1em;
     font-size: 25px;
