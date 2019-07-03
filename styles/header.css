@@ -47,9 +47,6 @@
     display: none;
     list-style: none;
     text-decoration: none !important;
-  }
-
-  ul {
     background-color: black;
     height: 50px;
   }
