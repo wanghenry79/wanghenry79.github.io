@@ -23,17 +23,15 @@
 <script>
   function toggleNav() {
 
-  var dropdown = document.getElementById("dropdown");
+  var dropdown = document.getElementById("navbar");
   var selection = document.getElementsByClassName("options");
 
   
-    if (dropdown.style.display == "inline") {
+    if (dropdown.style.display == "block") {
       dropdown.style.display = "none";
-      selection.style.display = "none";
 
     } else {
-      dropdown.style.display = "inline";
-      selection.style.display = "inline";
+      dropdown.style.display = "block";
 
     }
   }
