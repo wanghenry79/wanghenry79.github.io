@@ -43,7 +43,7 @@
     margin: 0 auto;
   }
 
-  .navbar {
+  #navbar {
     text-align: center;
     background-color: black;
     padding-bottom: 1em;
