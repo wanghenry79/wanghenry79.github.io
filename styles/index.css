@@ -37,6 +37,10 @@ img {
 	width: 100%;
 }
 
+#main-content {
+	z-index: 0;
+}
+
 
 .main-promotion .image {
 	width: 100%;
