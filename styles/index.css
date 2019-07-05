@@ -86,7 +86,8 @@ form {
   position: fixed;
   z-index: 4;
   width: 60%;
-  margin: 0 auto;
+  top: 50%;
+  left: 50%;
 }
 
 form h2 {
