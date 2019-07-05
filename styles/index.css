@@ -79,7 +79,7 @@ img {
 
 
 form {
-  width: 490px;
+  width: 60%;
 
   z-index: 4;
   background-color: #f28600;
@@ -87,8 +87,8 @@ form {
   border: solid 4px black;
 
   position: fixed;
-  left: 24vw;
-  top: 15vw;
+  left: 8vw;
+  top: 12vw;
 }
 
 form h2 {
