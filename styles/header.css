@@ -57,7 +57,7 @@
   }
 
   .options {
-    display: inline;
+    display: block;
         padding: 1em;
     font-size: 25px;
     z-index: 0;
