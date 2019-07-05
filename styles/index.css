@@ -80,16 +80,13 @@ img {
 
 form {
   width: 60%;
-
-  z-index: 4;
   background-color: #f28600;
   padding: 1.5em;
   border: solid 4px black;
 
   margin: 0 auto;
-  /* position: fixed;
-  left: 8vw;
-  top: 12vw; */
+  position: relative;
+  z-index: 4;
 }
 
 form h2 {
