@@ -83,7 +83,7 @@ form {
   background-color: #f28600;
   padding: 1.5em;
   border: solid 4px black;
-  position: relative;
+  position: fixed;
   z-index: 4;
   width: 60%;
   margin: 0 auto;
