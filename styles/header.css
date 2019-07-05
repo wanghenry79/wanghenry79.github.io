@@ -167,9 +167,9 @@
 
 @media only screen and (min-width: 820px) {
 
-h1 a {
+nav h1 a {
   text-decoration: none;
-  color: inherit;
+  color: white;
 } 
 
 
