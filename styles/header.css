@@ -76,19 +76,21 @@
 
 }
 
-@media only screen and (min-width: 801px && max-width: 819px) {
+/* Special Mode where no title */
+
+@media only screen and (min-width: 801px) and (max-width: 1120px) {
   nav {
   width: 100%;
   height: 90px;
   background-color: black;
   display: flex;
   position: relative;
-  align-items: center;
+  align-items: center ;
   z-index: 2;
  
   }
   nav h1 {
-    display: none;
+    display: none; // 
 
   }
 
@@ -126,7 +128,7 @@
 
 }
 
-@media only screen and (min-width: 820px) {
+@media only screen and (min-width: 1120px) {
 
 nav h1 a {
   text-decoration: none;
