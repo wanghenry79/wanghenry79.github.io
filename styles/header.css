@@ -8,6 +8,10 @@
 
 }
 
+#dropdown a {
+    color: white !important;
+  }
+
 
 @media only screen and (max-width: 800px) {
   a {
@@ -64,9 +68,7 @@
 
   }
 
-  #dropdown a {
-    color: white !important;
-  }
+  
   
 
 
@@ -178,7 +180,7 @@ nav {
   background-color: black;
   display: flex;
   position: relative;
-  align-items: center;
+  align-items: center !important;
   z-index: 2;
  
 }
@@ -200,13 +202,13 @@ line-height: 55px;
 
 }
 
-nav ul {
+nav div ul {
  position: absolute;
  right: 0;
  padding-right: 4%;
 }
 
-nav ul li {
+nav div ul li {
   float: left;
   list-style: none;
   position: relative; /* we can add absolute position in subcategories */
@@ -221,7 +223,6 @@ nav ul li a {
    font-family: "Book Antiqua";
   color: white !important;
   font-size: 20px;
-  padding: 34px 14px;
   text-decoration: none;
 }
 
