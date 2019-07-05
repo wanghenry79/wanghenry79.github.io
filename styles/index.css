@@ -86,9 +86,10 @@ form {
   padding: 1.5em;
   border: solid 4px black;
 
-  position: fixed;
+  margin: 0 auto;
+  /* position: fixed;
   left: 8vw;
-  top: 12vw;
+  top: 12vw; */
 }
 
 form h2 {
