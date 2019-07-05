@@ -88,6 +88,8 @@ form {
   width: 60%;
   top: 50%;
   left: 50%;
+  margin-top: -30%; /* Negative half of height. */
+
 }
 
 form h2 {
