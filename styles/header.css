@@ -177,7 +177,7 @@ nav div ul li {
   list-style: none;
   position: relative; /* we can add absolute position in subcategories */
   padding-right: 1em;
-
+  padding-bottom: 4px;
 
 
 }
