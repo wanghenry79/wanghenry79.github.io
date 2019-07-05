@@ -61,10 +61,12 @@
     display: block;
     padding: 1em;
     font-size: 25px;
-    color: white;
-  
+
   }
 
+  li {
+    color: white;
+  }
   
 
 
