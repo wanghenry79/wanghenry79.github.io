@@ -111,7 +111,7 @@
     float: left;
     list-style: none;
     position: relative; /* we can add absolute position in subcategories */
-    padding-left: 1em;
+    
 
 
 
@@ -123,6 +123,7 @@
     color: white !important;
     font-size: 20px;
     text-decoration: none;
+    padding-left: 1em;
   }
 
 
