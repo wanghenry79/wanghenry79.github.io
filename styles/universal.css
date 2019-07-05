@@ -148,6 +148,7 @@ p {
 .content img {
    margin-top: 1em;
     max-width: 100%;
+    z-index: 0;
 }
 
 
