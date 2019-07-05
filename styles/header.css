@@ -43,7 +43,7 @@
     padding-bottom: 1em;
     display: none;
     z-index: 1;
-    position: fixed;
+    position: relative;
   }
 
   #dropdown {
