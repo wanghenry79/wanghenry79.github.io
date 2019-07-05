@@ -84,9 +84,10 @@ form {
   padding: 1.5em;
   border: solid 4px black;
 
-  margin: 0 auto;
+  
   position: relative;
   z-index: 4;
+  margin: 0 auto;
 }
 
 form h2 {
