@@ -89,7 +89,7 @@ form {
   top: 50%;
   left: 50%;
   margin-top: -30%; /* Negative half of height. */
-
+  margin-left: -16%px; /* Negative half of width. */
 }
 
 form h2 {
