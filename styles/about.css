@@ -10,11 +10,6 @@ p {
 
 }
 
-.content {
-	margin-left: 15%;
-	margin-right: 30%;
-}
-
 .main-title {
 	font-size: 120%;
 	text-align: center;
@@ -39,12 +34,26 @@ h3 {
 	
 }
 
+@media only screen and (max-width: 800px) {
+	.content {
+		margin: 0 1em;
+	}
+}
+
+@media only screen and (min-width: 801px) {
+	.content {
+		margin-left: 15%;
+		margin-right: 30%;
+	}
+
+}
+
+
 .content img {
 	margin-top: 3em;
 	margin-bottom: 1em;
-   width: 100%;
-   height: auto;
-   border: solid 6px black;
+   width: 98.4% !important;
+   border: solid 4px black;
 }
 
 .what-we-do {
