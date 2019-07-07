@@ -14,11 +14,21 @@ p {
 	margin-bottom: .5em !important;
 }
 
+@media only screen and (max-width: 800px) {
+	.content {
+		margin: 0 1em;
+		
+	}
+}
 
+
+@media only screen and (min-width: 801px) {
 .content {
 	margin-left: 15%;
 	margin-right: 30%;
 	width: 19vw !important;
+}
+
 }
 
 .main-title {
