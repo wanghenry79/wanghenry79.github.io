@@ -386,6 +386,23 @@ text-align: center;
 	align-content: center;
 }
 
+
+	.book-review {
+	background-color: black;
+	display: inline-block;
+	width: 33%;
+	padding-left: 0;
+	border-right: solid 3px #f28600;
+	border-left: solid 3px #f28600;
+	border-top: solid 6px #f28600;
+	border-bottom: solid 3px #f28600;
+	margin-left: -4px;
+	margin-top: 0;
+
+	vertical-align: top;
+
+	}
+
 .book-review p {
 	color: white;
 	padding: 1em 1.5em;
